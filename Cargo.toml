@@ -1,0 +1,15 @@
+[package]
+name = "aternosapi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fancy-regex = "0.13.0"
+md5 = "0.7.0"
+quickjs-rs = "0.5.2"
+rand = "0.8.5"
+reqwest = { version = "0.11.24", features = ["multipart", "blocking", "cookies", "json", "rustls-tls"] }
+scraper = "0.18.1"
+serde_json = "1.0.113"
